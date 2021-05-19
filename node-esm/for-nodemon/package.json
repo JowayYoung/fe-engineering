@@ -1,9 +1,9 @@
 {
 	"name": "node-esm",
 	"version": "0.0.1",
-	"main": "index.js",
+	"main": "src/index.js",
 	"scripts": {
-		"start": "nodemon -x babel-node index.js"
+		"start": "nodemon -x babel-node src/index.js"
 	},
 	"dependencies": {
 		"trample": "0.4.0"
@@ -32,7 +32,7 @@
 			"dist/"
 		],
 		"watch": [
-			"index.js"
+			"src/"
 		]
 	}
 }

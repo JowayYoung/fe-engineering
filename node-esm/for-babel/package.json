@@ -1,9 +1,9 @@
 {
 	"name": "node-esm",
 	"version": "0.0.1",
-	"main": "index.js",
+	"main": "src/index.js",
 	"scripts": {
-		"start": "babel-node index.js"
+		"start": "babel-node src/index.js"
 	},
 	"dependencies": {
 		"trample": "0.4.0"
