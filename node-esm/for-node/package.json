@@ -1,0 +1,16 @@
+{
+	"name": "node-esm",
+	"version": "0.0.1",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node --es-module-specifier-resolution=node index.js"
+	},
+	"dependencies": {
+		"trample": "0.4.0"
+	},
+	"engines": {
+		"node": ">= 13.2.0",
+		"npm": ">= 6.13.1"
+	}
+}

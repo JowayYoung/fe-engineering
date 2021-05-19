@@ -1,0 +1,22 @@
+{
+	"name": "node-esm",
+	"version": "0.0.1",
+	"main": "index.js",
+	"scripts": {
+		"start": "babel-node index.js"
+	},
+	"dependencies": {
+		"trample": "0.4.0"
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-env"
+		]
+	},
+	"devDependencies": {
+		"@babel/cli": "7.14.3",
+		"@babel/core": "7.14.3",
+		"@babel/node": "7.14.2",
+		"@babel/preset-env": "7.14.2"
+	}
+}
