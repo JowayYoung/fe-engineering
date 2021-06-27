@@ -1,0 +1,12 @@
+{
+	"name": "commit-lint",
+	"version": "0.0.1",
+	"script": {
+		"commit": "git-cz"
+	},
+	"config": {
+		"commitizen": {
+			"path": "node_modules/cz-customizable"
+		}
+	}
+}
