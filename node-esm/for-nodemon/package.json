@@ -1,6 +1,6 @@
 {
 	"name": "node-esm",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"main": "src/index.js",
 	"scripts": {
 		"start": "nodemon -x babel-node src/index.js"
@@ -9,11 +9,11 @@
 		"trample": "0.4.0"
 	},
 	"devDependencies": {
-		"@babel/cli": "7.14.3",
-		"@babel/core": "7.14.3",
-		"@babel/node": "7.14.2",
-		"@babel/preset-env": "7.14.2",
-		"nodemon": "2.0.7"
+		"@babel/cli": "7.16.0",
+		"@babel/core": "7.16.5",
+		"@babel/node": "7.16.5",
+		"@babel/preset-env": "7.16.5",
+		"nodemon": "2.0.15"
 	},
 	"babel": {
 		"presets": [

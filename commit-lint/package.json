@@ -1,6 +1,6 @@
 {
 	"name": "commit-lint",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"script": {
 		"commit": "git-cz"
 	},
