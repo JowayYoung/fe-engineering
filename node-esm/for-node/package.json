@@ -7,8 +7,8 @@
 		"start": "node --es-module-specifier-resolution=node src/index.js"
 	},
 	"engines": {
-		"node": ">= 13.2.0",
-		"npm": ">= 6.13.1"
+		"node": ">=13.2.0",
+		"npm": ">=6.13.1"
 	},
 	"dependencies": {
 		"trample": "0.4.0"
