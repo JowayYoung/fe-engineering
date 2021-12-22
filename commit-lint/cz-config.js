@@ -42,7 +42,7 @@ module.exports = {
 		name: "sync	同步：同步分支，同步分支代码到其他分支",
 		value: "sync"
 	}, {
-		name: "improvement 改进：改进功能，升级当前功能模块",
-		value: "improvement"
+		name: "impr 改进：改进功能，升级当前功能模块",
+		value: "impr"
 	}]
 };
