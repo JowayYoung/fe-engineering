@@ -1,7 +1,7 @@
 module.exports = {
 	allowBreakingChanges: ["feat", "fix"],
 	allowCustomScopes: true,
-	scopes: [],
+	scopes: [123],
 	types: [{
 		name: "feat	功能：新增功能，迭代项目需求",
 		value: "feat"
