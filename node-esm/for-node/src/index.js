@@ -1,3 +1,3 @@
-import { NodeType } from "trample/dist/node";
+import { NodeType } from "@yangzw/bruce-us/dist/node";
 
 console.log(NodeType());

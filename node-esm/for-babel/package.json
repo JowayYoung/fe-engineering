@@ -6,13 +6,13 @@
 		"start": "babel-node src/index.js"
 	},
 	"dependencies": {
-		"trample": "0.4.0"
+		"@yangzw/bruce-us": "1.0.0"
 	},
 	"devDependencies": {
-		"@babel/cli": "7.16.0",
-		"@babel/core": "7.16.5",
-		"@babel/node": "7.16.5",
-		"@babel/preset-env": "7.16.5"
+		"@babel/cli": "7.17.6",
+		"@babel/core": "7.17.7",
+		"@babel/node": "7.16.8",
+		"@babel/preset-env": "7.16.11"
 	},
 	"babel": {
 		"presets": [
