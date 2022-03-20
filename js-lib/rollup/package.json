@@ -1,0 +1,15 @@
+{
+	"name": "rollup",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "rollup -c"
+	},
+	"engines": {
+		"node": ">=13.2.0",
+		"npm": ">=6.13.1"
+	},
+	"dependencies": {
+		"rollup": "2.70.1"
+	}
+}
