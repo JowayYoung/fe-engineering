@@ -1,6 +1,6 @@
 {
-	"name": "@yangzw/bruce-us",
-	"version": "1.0.1",
+	"name": "bruce-us",
+	"version": "1.0.0",
 	"description": "A Web/Node General Util Set",
 	"keywords": [
 		"bruce-us",
@@ -27,16 +27,6 @@
 		"type",
 		"url"
 	],
-	"author": {
-		"name": "JowayYoung",
-		"phone": "18819249731",
-		"email": "young.joway@aliyun.com"
-	},
-	"homepage": "https://github.com/JowayYoung",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/JowayYoung/bruce.git"
-	},
 	"license": "MIT",
 	"main": "dist/web.js",
 	"jsnext:main": "dist/web.esm.js",
@@ -57,22 +47,19 @@
 		"fs-extra": "10.0.1"
 	},
 	"devDependencies": {
-		"@rollup/plugin-commonjs": "21.0.2",
+		"@rollup/plugin-commonjs": "21.0.3",
 		"@rollup/plugin-node-resolve": "13.1.3",
 		"@rollup/plugin-typescript": "8.3.1",
 		"@types/fs-extra": "9.0.13",
 		"@types/jest": "27.4.1",
-		"@types/node": "17.0.21",
+		"@types/node": "17.0.23",
 		"jest": "27.5.1",
 		"rollup": "2.70.1",
 		"rollup-plugin-cleandir": "2.0.0",
 		"rollup-plugin-dts": "4.2.0",
 		"rollup-plugin-terser": "7.0.2",
-		"ts-jest": "27.1.3",
+		"ts-jest": "27.1.4",
 		"tslib": "2.3.1",
-		"typescript": "4.6.2"
-	},
-	"publishConfig": {
-		"access": "public"
+		"typescript": "4.6.3"
 	}
 }
