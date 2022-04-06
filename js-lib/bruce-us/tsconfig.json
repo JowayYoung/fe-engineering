@@ -30,7 +30,7 @@
 			"@/*": ["src/*"]
 		},
 		"sourceMap": true,
-		"strict": true,
+		"strict": false,
 		"target": "ES5",
 		"typeRoots": [
 			"node_modules/@types",
@@ -38,6 +38,9 @@
 		]
 	},
 	"exclude": [
-		"node_modules"
+		"dist",
+		"node_modules",
+		"jest.config.js",
+		"rollup.config.js"
 	]
 }

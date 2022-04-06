@@ -1,5 +1,3 @@
-import { dirname, join } from "path";
-import { fileURLToPath } from "url";
 import CommonjsPlugin from "@rollup/plugin-commonjs";
 import NodeResolvePlugin from "@rollup/plugin-node-resolve";
 import TypescriptPlugin from "@rollup/plugin-typescript";
@@ -7,12 +5,10 @@ import { cleandir as CleandirPlugin } from "rollup-plugin-cleandir";
 import DtsPlugin from "rollup-plugin-dts";
 import { terser as TerserPlugin } from "rollup-plugin-terser";
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-
 const PLUGINS = [
 	NodeResolvePlugin(),
 	CommonjsPlugin(),
-	TypescriptPlugin({ tsconfig: join(__dirname, "./tsconfig.json") }),
+	TypescriptPlugin(),
 	TerserPlugin({
 		compress: { drop_console: false },
 		format: { comments: false }
