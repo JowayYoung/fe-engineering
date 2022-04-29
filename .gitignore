@@ -1,4 +1,5 @@
 .DS_Store
+.umi
 node_modules
 package-lock.json
 yarn.lock

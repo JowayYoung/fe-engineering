@@ -1,0 +1,12 @@
+{
+	"name": "doc-site",
+	"version": "1.0.0",
+	"scripts": {
+		"deploy": "dumi build",
+		"docs": "dumi dev"
+	},
+	"dependencies": {
+		"dumi": "1.1.40",
+		"dumi-theme-mobile": "1.1.22"
+	}
+}
