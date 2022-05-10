@@ -11,6 +11,6 @@
 		"npm": ">=6.13.1"
 	},
 	"dependencies": {
-		"@yangzw/bruce-us": "1.0.0"
+		"@yangzw/bruce-us": "1.0.1"
 	}
 }

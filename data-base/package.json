@@ -4,6 +4,7 @@
 	"main": "src/index.js",
 	"type": "module",
 	"scripts": {
+		"clean": "rimraf coverage dist node_modules package-lock.json yarn.lock",
 		"start": "node --es-module-specifier-resolution=node src/index.js"
 	},
 	"engines": {
@@ -12,6 +13,6 @@
 	},
 	"dependencies": {
 		"koa": "2.13.4",
-		"mongoose": "6.3.1"
+		"mongoose": "6.3.3"
 	}
 }

@@ -6,14 +6,14 @@
 		"start": "nodemon -x babel-node src/index.js"
 	},
 	"dependencies": {
-		"@yangzw/bruce-us": "1.0.0"
+		"@yangzw/bruce-us": "1.0.1"
 	},
 	"devDependencies": {
-		"@babel/cli": "7.17.6",
-		"@babel/core": "7.17.7",
-		"@babel/node": "7.16.8",
-		"@babel/preset-env": "7.16.11",
-		"nodemon": "2.0.15"
+		"@babel/cli": "7.17.10",
+		"@babel/core": "7.17.10",
+		"@babel/node": "7.17.10",
+		"@babel/preset-env": "7.17.10",
+		"nodemon": "2.0.16"
 	},
 	"babel": {
 		"presets": [
