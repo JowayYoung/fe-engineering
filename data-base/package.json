@@ -5,14 +5,40 @@
 	"type": "module",
 	"scripts": {
 		"clean": "rimraf coverage dist node_modules package-lock.json yarn.lock",
-		"start": "node --es-module-specifier-resolution=node src/index.js"
+		"start": "nodemon --es-module-specifier-resolution=node src/index.js"
 	},
 	"engines": {
 		"node": ">=13.2.0",
 		"npm": ">=6.13.1"
 	},
 	"dependencies": {
+		"@yangzw/bruce-us": "1.0.1",
+		"dayjs": "1.11.2",
 		"koa": "2.13.4",
+		"koa-body": "5.0.0",
+		"koa-json": "2.0.2",
+		"koa-logger": "3.2.1",
+		"koa-onerror": "4.2.0",
+		"koa-router": "10.1.1",
+		"koa2-cors": "2.0.6",
 		"mongoose": "6.3.3"
+	},
+	"devDependencies": {
+		"nodemon": "2.0.16"
+	},
+	"nodemonConfig": {
+		"env": {
+			"NODE_ENV": "dev"
+		},
+		"execMap": {
+			"js": "node --harmony"
+		},
+		"ext": "js json",
+		"ignore": [
+			"dist/"
+		],
+		"watch": [
+			"src/"
+		]
 	}
 }
