@@ -1,7 +1,7 @@
 import Mongoose from "mongoose";
 
 const { connect, connection } = Mongoose;
-const url = "mongodb://root:123456@120.0.0.1:27017/mall";
+const url = "mongodb://root:123456@127.0.0.1:27017/mall";
 
 connect(url, {
 	authSource: "admin",
