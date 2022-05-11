@@ -6,7 +6,7 @@ import { CheckData } from "../../utils/setting";
 
 const Router = KoaRouter();
 
-Router.post("/product/update", async ctx => {
+Router.post("/mall/product/update", async ctx => {
 	const { id, ...params } = ctx.request.body;
 	// 校验全部字段是否为空
 	if (!id) {

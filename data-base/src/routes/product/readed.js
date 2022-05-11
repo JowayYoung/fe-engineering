@@ -5,7 +5,7 @@ import { ProductModel } from "../../models";
 
 const Router = KoaRouter();
 
-Router.get("/product/readed", async ctx => {
+Router.get("/mall/product/readed", async ctx => {
 	const { id } = ctx.request.query;
 	// 校验全部字段是否为空
 	if (!id) {

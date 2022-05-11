@@ -5,7 +5,7 @@ import { ProductModel } from "../../models";
 
 const Router = KoaRouter();
 
-Router.post("/product/delete", async ctx => {
+Router.post("/mall/product/delete", async ctx => {
 	const { id } = ctx.request.body;
 	// 校验全部字段是否为空
 	if (!id) {
