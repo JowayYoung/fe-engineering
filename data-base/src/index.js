@@ -20,5 +20,6 @@ app.use(KoaJson()); // JSON解析
 // 匹配路由
 Object.values(Router).forEach(v => app.use(v.routes(), v.allowedMethods()));
 
+// 监听服务
 app.listen(3000);
 console.log("Node服务已启动，监听端口3000");

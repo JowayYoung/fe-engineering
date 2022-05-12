@@ -5,15 +5,16 @@
 	"type": "module",
 	"scripts": {
 		"clean": "rimraf coverage dist node_modules package-lock.json yarn.lock",
-		"deploy": "node --es-module-specifier-resolution=node src/index.js",
-		"start": "nodemon --es-module-specifier-resolution=node src/index.js"
+		"deploy": "cross-env NODE_ENV=prod node --es-module-specifier-resolution=node src/index.js",
+		"start": "cross-env NODE_ENV=dev nodemon --es-module-specifier-resolution=node src/index.js"
 	},
 	"engines": {
 		"node": ">=13.2.0",
 		"npm": ">=6.13.1"
 	},
 	"dependencies": {
-		"@yangzw/bruce-us": "1.0.1",
+		"@yangzw/bruce-us": "1.0.2",
+		"cross-env": "7.0.3",
 		"dayjs": "1.11.2",
 		"koa": "2.13.4",
 		"koa-body": "5.0.0",
@@ -28,9 +29,6 @@
 		"nodemon": "2.0.16"
 	},
 	"nodemonConfig": {
-		"env": {
-			"NODE_ENV": "dev"
-		},
 		"execMap": {
 			"js": "node --harmony"
 		},
