@@ -3,10 +3,11 @@ import { AsyncTo } from "@yangzw/bruce-us/dist/node";
 
 import { Product, ProductModel } from "../../models";
 import { CheckData } from "../../utils/setting";
+import AppConfig from "../../app.config";
 
 const Router = KoaRouter();
 
-Router.post("/mall/product/create", async ctx => {
+Router.post(`${AppConfig.publicPath}/product/create`, async ctx => {
 	const params = ctx.request.body;
 	// 校验全部字段是否为空
 	if (!CheckData(params, 5)) {

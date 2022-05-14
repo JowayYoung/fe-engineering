@@ -2,10 +2,11 @@ import KoaRouter from "koa-router";
 import { AsyncTo } from "@yangzw/bruce-us/dist/node";
 
 import { ProductModel } from "../../models";
+import AppConfig from "../../app.config";
 
 const Router = KoaRouter();
 
-Router.post("/mall/product/delete", async ctx => {
+Router.post(`${AppConfig.publicPath}/product/delete`, async ctx => {
 	const { id } = ctx.request.body;
 	// 校验全部字段是否为空
 	if (!id) {

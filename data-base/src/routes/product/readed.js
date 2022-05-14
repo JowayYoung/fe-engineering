@@ -2,10 +2,11 @@ import KoaRouter from "koa-router";
 import { AsyncTo } from "@yangzw/bruce-us/dist/node";
 
 import { ProductModel } from "../../models";
+import AppConfig from "../../app.config";
 
 const Router = KoaRouter();
 
-Router.get("/mall/product/readed", async ctx => {
+Router.get(`${AppConfig.publicPath}/product/readed`, async ctx => {
 	const { id } = ctx.request.query;
 	// 校验全部字段是否为空
 	if (!id) {

@@ -1,9 +1,11 @@
 import Mongoose from "mongoose";
 
-const { connect, connection } = Mongoose;
-const url = "mongodb://root:123456@127.0.0.1:27017/mall";
+import AppConfig from "../app.config";
 
-connect(url, {
+const { connect, connection } = Mongoose;
+const { mongodb: { host, password, port, username } } = AppConfig;
+
+connect(`mongodb://${username}:${password}@${host}:${port}/mall`, {
 	authSource: "admin",
 	useNewUrlParser: true,
 	useUnifiedTopology: true
