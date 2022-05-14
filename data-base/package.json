@@ -4,7 +4,7 @@
 	"main": "src/index.js",
 	"type": "module",
 	"scripts": {
-		"clean": "rimraf coverage dist node_modules package-lock.json yarn.lock",
+		"clean": "rimraf node_modules package-lock.json yarn.lock",
 		"deploy": "node --es-module-specifier-resolution=node src/index.js",
 		"start": "nodemon --es-module-specifier-resolution=node src/index.js"
 	},
