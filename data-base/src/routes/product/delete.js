@@ -6,7 +6,7 @@ import AppConfig from "../../app.config";
 
 const Router = KoaRouter();
 
-Router.post(`${AppConfig.publichPath}/product/delete`, async ctx => {
+Router.post(`${AppConfig.publicPath}/product/delete`, async ctx => {
 	const { id } = ctx.request.body;
 	// 校验全部字段是否为空
 	if (!id) {

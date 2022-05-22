@@ -7,7 +7,7 @@ import AppConfig from "../../app.config";
 
 const Router = KoaRouter();
 
-Router.post(`${AppConfig.publichPath}/product/create`, async ctx => {
+Router.post(`${AppConfig.publicPath}/product/create`, async ctx => {
 	const params = ctx.request.body;
 	// 校验全部字段是否为空
 	if (!CheckData(params, 5)) {
